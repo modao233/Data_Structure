@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/f/clion_workspace/SingleList/SingleList.h
+iostream
+-
+
+/cygdrive/f/clion_workspace/SingleList/main.cpp
+iostream
+-
+SingleList.h
+/cygdrive/f/clion_workspace/SingleList/SingleList.h
+

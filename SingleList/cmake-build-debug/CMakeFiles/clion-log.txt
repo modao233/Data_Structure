@@ -1,0 +1,4 @@
+D:\cygwin\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /cygdrive/f/clion_workspace/SingleList
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /cygdrive/f/clion_workspace/SingleList/cmake-build-debug
