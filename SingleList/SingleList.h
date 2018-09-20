@@ -41,7 +41,7 @@ public:
         desptr -> link = NULL;
     }
     ~List(){makeEmpty();}
-    void makeEmpty()
+    void makeEmpty()    //将链表置为空
     {
         LinkNode<T>* q;
         while (first -> link != NULL)
@@ -51,7 +51,7 @@ public:
             delete q;
         }
     }
-    int Length()const
+    int Length()const       //计算附加头结点的单链表的长度，长度不包括头结点
     {
         LinkNode<T>* p = first;
         int count = 0;
@@ -73,7 +73,7 @@ public:
         }
         return current;
     }
-    LinkNode<T>* Locate(int i)
+    LinkNode<T>* Locate(int i)      //定位函数
     {
         if (i < 0)return NULL;
         LinkNode<T>* current = first;
@@ -85,7 +85,7 @@ public:
         }
         return current;
     }
-    bool getData(int i, T& x)const
+    bool getData(int i, T& x)const      //取出链表中第i个元素的值
     {
         if (i <= 0)return NULL;
         LinkNode<T>* current = Locate(i);
@@ -96,14 +96,14 @@ public:
             return true;
         }
     }
-    bool setData(int i, T& x)
+    bool setData(int i, T& x)       //链表中第i个元素赋值x
     {
         if (i <= 0)return NULL;
         LinkNode<T>* current = Locate(i);
         if (current == NULL) return false;
         else {current -> data = x;return true;}
     }
-    bool Insert(int i, T& x)
+    bool Insert(int i, T& x)    //将新元素x插入在链表中第i个结点后
     {
         LinkNode<T>* current = Locate(i);
         if(current == NULL) return false;
@@ -202,6 +202,24 @@ public:
         }
         desptr -> link = NULL;
         return *this;
+    }
+    //LinkNode<T>* max()
+    void max()
+    {
+        LinkNode<T>* current = first -> link;
+        LinkNode<T>* maxPtr = current;
+        T max = current -> data;
+        while(current -> link != NULL)
+        {
+            current = current -> link;
+            if(max < current -> data)
+            {
+                max = current -> data;maxPtr = current;
+            }
+        }
+        if(current -> data > max){ max = current -> data;maxPtr = current;}
+        cout << "The max is :" << max;
+        //return maxPtr;
     }
 };
 #endif //SINGLELIST_SINGLELIST_H
