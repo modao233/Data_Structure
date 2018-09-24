@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/f/clion_workspace/2_10/SeqList.h
+iostream
+-
+stdlib.h
+-
+
+/cygdrive/f/clion_workspace/2_10/main.cpp
+iostream
+-
+SeqList.h
+/cygdrive/f/clion_workspace/2_10/SeqList.h
+
