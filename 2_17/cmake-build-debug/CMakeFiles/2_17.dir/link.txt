@@ -1,0 +1,1 @@
+/usr/bin/c++.exe  -g  -Wl,--enable-auto-import CMakeFiles/2_17.dir/main.cpp.o  -o 2_17.exe -Wl,--out-implib,lib2_17.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

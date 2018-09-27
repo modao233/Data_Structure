@@ -1,0 +1,3 @@
+/cygdrive/f/clion_workspace/2_14/cmake-build-debug/CMakeFiles/edit_cache.dir
+/cygdrive/f/clion_workspace/2_14/cmake-build-debug/CMakeFiles/2_14.dir
+/cygdrive/f/clion_workspace/2_14/cmake-build-debug/CMakeFiles/rebuild_cache.dir
