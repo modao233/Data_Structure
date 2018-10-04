@@ -1,0 +1,1 @@
+/usr/bin/c++.exe  -g  -Wl,--enable-auto-import CMakeFiles/CircList.dir/main.cpp.o  -o CircList.exe -Wl,--out-implib,libCircList.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
