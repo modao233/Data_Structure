@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+F:/clion_workspace/SeqStack/SeqStack.h
+assert.h
+-
+iostream
+-
+
+F:/clion_workspace/SeqStack/main.cpp
+iostream
+-
+SeqStack.h
+F:/clion_workspace/SeqStack/SeqStack.h
+

@@ -1,0 +1,3 @@
+D:\MinGW\cmake-3.12.2-win64-x64\cmake-3.12.2-win64-x64\bin\cmake.exe -E remove -f CMakeFiles\SeqStack.dir/objects.a
+D:\MinGW\mingw64\bin\ar.exe cr CMakeFiles\SeqStack.dir/objects.a @CMakeFiles\SeqStack.dir\objects1.rsp
+D:\MinGW\mingw64\bin\x86_64-w64-mingw32-c++.exe -g   -Wl,--whole-archive CMakeFiles\SeqStack.dir/objects.a -Wl,--no-whole-archive  -o SeqStack.exe -Wl,--out-implib,libSeqStack.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\SeqStack.dir\linklibs.rsp
