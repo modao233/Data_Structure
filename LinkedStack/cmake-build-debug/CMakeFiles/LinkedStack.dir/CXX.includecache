@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+F:/clion_workspace/LinkedStack/LinkedStack.h
+iostream
+-
+assert.h
+-
+
+F:/clion_workspace/LinkedStack/main.cpp
+iostream
+-
+LinkedStack.h
+F:/clion_workspace/LinkedStack/LinkedStack.h
+
