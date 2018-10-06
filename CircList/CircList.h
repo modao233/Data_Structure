@@ -158,7 +158,7 @@ public:
         CircLinkNode<T>* del = current -> link;
         if(del == last)last = current;
         current -> link = del -> link;
-        x = del -> link;
+        x = del -> data;
         delete del;
         return true;
     }
