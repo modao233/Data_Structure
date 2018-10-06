@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+F:/clion_workspace/3_25/CircList.h
+iostream
+-
+
+F:/clion_workspace/3_25/main.cpp
+iostream
+-
+CircList.h
+F:/clion_workspace/3_25/CircList.h
+
