@@ -175,6 +175,7 @@ public:
             if(last == first)last = last -> link;
             cin >> val;
         }
+        last -> link = first;
     }
     void inputRear(T endTag)
     {
@@ -186,6 +187,7 @@ public:
             last = last -> link;
             cin >> val;
         }
+        last -> link = first;
     }
     void output()
     {

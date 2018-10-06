@@ -1,1 +1,3 @@
-/usr/bin/c++.exe  -g  -Wl,--enable-auto-import CMakeFiles/CircList.dir/main.cpp.o  -o CircList.exe -Wl,--out-implib,libCircList.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+D:\MinGW\cmake-3.12.2-win64-x64\cmake-3.12.2-win64-x64\bin\cmake.exe -E remove -f CMakeFiles\CircList.dir/objects.a
+D:\MinGW\mingw64\bin\ar.exe cr CMakeFiles\CircList.dir/objects.a @CMakeFiles\CircList.dir\objects1.rsp
+D:\MinGW\mingw64\bin\x86_64-w64-mingw32-c++.exe -g   -Wl,--whole-archive CMakeFiles\CircList.dir/objects.a -Wl,--no-whole-archive  -o CircList.exe -Wl,--out-implib,libCircList.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\CircList.dir\linklibs.rsp

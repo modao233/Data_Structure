@@ -1,13 +1,18 @@
-D:\cygwin\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /cygdrive/f/clion_workspace/CircList
+D:\MinGW\cmake-3.12.2-win64-x64\cmake-3.12.2-win64-x64\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=D:/MinGW/mingw64/bin/mingw32-make.exe -DCMAKE_C_COMPILER=D:/MinGW/mingw64/bin/x86_64-w64-mingw32-gcc-8.1.0.exe -DCMAKE_CXX_COMPILER=D:/MinGW/mingw64/bin/x86_64-w64-mingw32-c++.exe -G "CodeBlocks - MinGW Makefiles" F:\clion_workspace\CircList
+-- The C compiler identification is GNU 8.1.0
+-- The CXX compiler identification is GNU 8.1.0
+-- Check for working C compiler: D:/MinGW/mingw64/bin/x86_64-w64-mingw32-gcc-8.1.0.exe
+-- Check for working C compiler: D:/MinGW/mingw64/bin/x86_64-w64-mingw32-gcc-8.1.0.exe -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: D:/MinGW/mingw64/bin/x86_64-w64-mingw32-c++.exe
+-- Check for working CXX compiler: D:/MinGW/mingw64/bin/x86_64-w64-mingw32-c++.exe -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
 -- Configuring done
 -- Generating done
--- Build files have been written to: /cygdrive/f/clion_workspace/CircList/cmake-build-debug
-
-Cannot get compiler information:
-	Compiler exited with error code 1: D:\cygwin\bin\c++.exe -xc++ -g -std=gnu++11 -fpch-preprocess -v -dD -E
-	c++: error: /cygdrive/c/Users/莫锟斤拷/AppData/Local/Temp/response-file.txt: No such file or directory
-	c++: error: /cygdrive/c/Users/莫锟斤拷/AppData/Local/Temp/compiler-file: No such file or directory
-	c++: fatal error: no input files
-	compilation terminated.
-	
-	
+-- Build files have been written to: F:/clion_workspace/CircList/cmake-build-debug
