@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+F:/clion_workspace/test_BinaryTree/BinaryTree.h
+iostream
+-
+string
+-
+cassert
+-
+LinkedStack.h
+F:/clion_workspace/test_BinaryTree/LinkedStack.h
+LInkedQueue.h
+F:/clion_workspace/test_BinaryTree/LInkedQueue.h
+
+F:/clion_workspace/test_BinaryTree/LInkedQueue.h
+iostream
+-
+cassert
+-
+
+F:/clion_workspace/test_BinaryTree/LinkedStack.h
+iostream
+-
+cassert
+-
+
+F:/clion_workspace/test_BinaryTree/main.cpp
+BinaryTree.h
+F:/clion_workspace/test_BinaryTree/BinaryTree.h
+iostream
+-
+cassert
+-
+
