@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+F:/clion_workspace/HashTable/HashTable2.h
+iostream
+-
+cassert
+-
+
+F:/clion_workspace/HashTable/main.cpp
+iostream
+-
+HashTable2.h
+F:/clion_workspace/HashTable/HashTable2.h
+
