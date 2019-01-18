@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+F:/clion_workspace/LinkedQueue/LinkedQueue.h
+iostream
+-
+
+F:/clion_workspace/LinkedQueue/main.cpp
+iostream
+-
+LinkedQueue.h
+F:/clion_workspace/LinkedQueue/LinkedQueue.h
+
