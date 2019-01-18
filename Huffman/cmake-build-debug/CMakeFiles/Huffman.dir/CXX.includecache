@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+F:/clion_workspace/Huffman/HuffmanTree.h
+MinHeap.h
+F:/clion_workspace/Huffman/MinHeap.h
+iostream
+-
+string
+-
+
+F:/clion_workspace/Huffman/MinHeap.h
+iostream
+-
+cassert
+-
+
+F:/clion_workspace/Huffman/main.cpp
+iostream
+-
+cassert
+-
+HuffmanTree.h
+F:/clion_workspace/Huffman/HuffmanTree.h
+MinHeap.h
+F:/clion_workspace/Huffman/MinHeap.h
+
