@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+F:/clion_workspace/SparseMatrix_cal/main.cpp
+iostream
+-
+sparseMatrix_cal.h
+F:/clion_workspace/SparseMatrix_cal/sparseMatrix_cal.h
+
+F:/clion_workspace/SparseMatrix_cal/sparseMatrix_cal.h
+iostream
+-
+
