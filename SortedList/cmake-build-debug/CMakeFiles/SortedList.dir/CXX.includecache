@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+F:/clion_workspace/SortedList/SeqList.h
+iostream
+-
+cstdlib
+-
+cassert
+-
+
+F:/clion_workspace/SortedList/SortedList.h
+iostream
+-
+SeqList.h
+F:/clion_workspace/SortedList/SeqList.h
+
+F:/clion_workspace/SortedList/main.cpp
+SortedList.h
+F:/clion_workspace/SortedList/SortedList.h
+person.h
+F:/clion_workspace/SortedList/person.h
+fstream
+-
+cassert
+-
+
+F:/clion_workspace/SortedList/person.h
+string
+-
+cassert
+-
+iomanip
+-
+iostream
+-
+

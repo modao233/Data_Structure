@@ -1,0 +1,3 @@
+F:/clion_workspace/SortedList/cmake-build-debug/CMakeFiles/edit_cache.dir
+F:/clion_workspace/SortedList/cmake-build-debug/CMakeFiles/SortedList.dir
+F:/clion_workspace/SortedList/cmake-build-debug/CMakeFiles/rebuild_cache.dir
