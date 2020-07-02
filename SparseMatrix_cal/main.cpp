@@ -1,44 +1,46 @@
 #include <iostream>
-#include "sparseMatrix_cal.h"
-using namespace std;
+#include "MatrixCal.h"
+using std::cin;
+using std::cout;
+using std::endl;
 int main() {
-    int i;
     cout << "**************************" << endl;
     cout << "*                        *" << endl;
-    cout << "*    -Ï¡Êè¾ØÕóÔËËãÆ÷-    *" << endl;
+    cout << "*    -ç¨€ç–çŸ©é˜µè¿ç®—å™¨-    *" << endl;
     cout << "*                        *" << endl;
-    cout << "*    1-¾ØÕó¼Ó·¨          *" << endl;
-    cout << "*    2-¾ØÕó¼õ·¨          *" << endl;
-    cout << "*    3-¾ØÕó³Ë·¨          *" << endl;
-    cout << "*    0-ÍË³ö              *" << endl;
+    cout << "*    1-çŸ©é˜µåŠ æ³•          *" << endl;
+    cout << "*    2-çŸ©é˜µå‡æ³•          *" << endl;
+    cout << "*    3-çŸ©é˜µä¹˜æ³•          *" << endl;
+    cout << "*    0-é€€å‡º              *" << endl;
     cout << "*                        *" << endl;
     cout << "**************************" << endl;
-    cout << "ÇëÊäÈë0,1,2,3Ñ¡Ôñ½øÐÐµÄÔËËã£º";
-    cin >> i;
+
+    int i = 1;
     while (i) {
+        cout << "è¯·è¾“å…¥0,1,2,3é€‰æ‹©è¿›è¡Œçš„è¿ç®—ï¼š";
+        cin >> i;
+        if(!i)break;
+        SparseMatrix<int> a,b;
+        cin >> a >> b;
+
         switch (i) {
             case 1:{
-                cout << "¾ØÕó¼Ó·¨ÔËËã£º" << endl << "======================" << endl;
-                Count(i);
+                cout << "çŸ©é˜µåŠ æ³•è¿ç®—ï¼š" << endl << "======================" << endl;
+                a.add(b);
                 break;
             }
             case 2:{
-                cout << "¾ØÕó¼õ·¨ÔËËã£º" << endl << "======================" << endl;
-                Count(i);
+                cout << "çŸ©é˜µå‡æ³•è¿ç®—ï¼š" << endl << "======================" << endl;
+                a.sub(b);
                 break;
             }
             case 3:{
-                cout << "¾ØÕó³Ë·¨ÔËËã£º" << endl << "======================" << endl;
-                multiplication();
+                cout << "çŸ©é˜µä¹˜æ³•è¿ç®—ï¼š" << endl << "======================" << endl;
+                a.mul(b);
                 break;
             }
         }
-        cout << "ÇëÊäÈë0,1,2,3Ñ¡Ôñ½øÐÐµÄÔËËã£º";
-        cin >> i;
     }
-    cout << "ÔËËãÆ÷¹Ø±Õ£¬Ð»Ð»Ê¹ÓÃ" << endl << "======================" << endl;
-    cout << "°´ÈÎÒâ¼ü¼Ó»Ø³µ½áÊø³ÌÐò: " << endl << "======================" << endl;
-    char c;
-    cin >> c;
+    cout << "è¿ç®—å™¨å…³é—­ï¼Œè°¢è°¢ä½¿ç”¨" << endl << "======================" << endl;
     return 0;
 }
